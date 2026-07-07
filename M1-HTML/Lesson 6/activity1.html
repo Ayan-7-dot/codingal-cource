@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M1 L6 Doctors apointment</title>
+</head>
+<body>
+    <h1>Doctors apointment</h1>
+    
+    <p>Fill in the form bellow to book your apointment </p>
+    <hr>
+    <form>
+
+        <fieldset>
+            <legend><h3></h3>Personal details</h3></legend>
+        
+        <label for="name"> Your name:</label> <br>
+<input type="text" id="name" placeholder=" Enter full name ">
+
+<br><br>
+
+        <label for="patient-id">Patient-id:</label>
+        <Input type="password" id="patient-id" placeholder="Enter secret code">
+
+        <br><br>
+
+        <label for="Dob">Date of birth:</label>
+            <input type="date" id="Dob" >
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Your visit</legend>
+                <label for="doctor">Choose your doctor:</label>
+                <select id="doctor">
+                    <option value="">Select Doctors</option>
+                    <option value="dr-lee">Dr. Lee-LIver</option>
+                    <option value="dr-ray">Dr. Ray-General</option>
+                </select>
+
+                <br><br>
+
+                <label for="notes">Any notes?</label><br>
+                <textarea id="notes" row="3" cols="35" placeholder="Ex: I have a sore throth"></textarea>
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legends>Prepher visit day</legends>
+                <input type="checkbox" name="day">Monday
+                <input type="checkbox" name="day">Tuesday
+                <input type="checkbox" name="day">Wednesday
+
+                <br><br>
+                
+                <label>Why are you visiting</label>
+                <input type="radio" name="reason">Fever <br>
+                <input type="radio" name="reason">Cold<br>
+                <input type="radio" name="reason">Head Ache<br>
+            </fieldset>
+            <input type="submit" value="Book apointment">
+            <input type="reset" value="clear ">
+    </form>
+</body>
+</html>
