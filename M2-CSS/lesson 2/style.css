@@ -1,0 +1,9 @@
+body{
+    background-color:lightblue;
+    background-image:linear-gradient(90deg, midnightblue, purple);
+    background-repeat:no-repeat;
+    height:100vh;
+}
+.page-header{
+    background-image:linear-gradient(90deg, midnightblue, purple);
+}
