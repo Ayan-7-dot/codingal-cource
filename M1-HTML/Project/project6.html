@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Donation Form</title>
+</head>
+<body>
+    <legend><h1>Book Donation Form</h1></legend>
+    <h3>Book Donation Form</h3>
+    <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Enter your full name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email"><br><br>
+
+        <label for="bookTitle">Book Title:</label>
+        <input type="text" id="bookTitle" name="bookTitle" required placeholder="Enter  book title"><br><br>
+
+        <label for="bookQuantity">Book Quantity:</label>
+        <input type="number" id="bookQuantity" name="bookQuantity" min="1" required placeholder="Enter book quantity"><br><br>
+
+        <label for="author">Author:</label>
+        <input type="text" id="author" name="author" placeholder="Enter the author's name"><br><br>
+
+        <label for="publisher">Publisher:</label>
+        <input type="text" id="publisher" name="publisher" placeholder="Enter the publisher's name"><br><br>
+
+        <label for="phone number">Phone Number:</label>
+        <input type="tel" id="phone number" name="phone number" placeholder="Enter your phone number"><br><br>
+        
+        
+        <label for="genre">Genre:</label>
+        <select id="genre" name="genre">
+            <option value="">Select Genre</option>
+            <option value="fiction">Fiction</option>
+            <option value="non-fiction">Non-Fiction</option>
+            <option value="mystery">Mystery</option>
+            <option value="fantasy">Fantasy</option>
+            <option value="biography">Biography</option>
+            
+        </select><br><br>
+
+        <input type="submit" value="Donate ">
+    </legend>
+    </form>
+</body>
+</html>
