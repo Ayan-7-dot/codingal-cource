@@ -2,6 +2,7 @@ body{
     background-color:lightblue;
     background: linear-gradient(180deg, #000000 0%, #1b1035 40%, #4a1d6e 70%, #d76d77 90%, #ffaf7b 100%);
     background-repeat:no-repeat;
+    transition: background 2s in-out infinite;
     height:100vh;
 }
 .page-header{
