@@ -1,0 +1,36 @@
+h1{
+    color:rgb(68, 68, 176)
+    
+}
+h2{
+    color:rgb(68, 68, 176)
+    
+}
+body{
+    background: linear-gradient(180deg, #6B7B8C 0%, #A8B5C0 50%, #D4DCE2 100%);
+    background-repeat:no-repeat;
+    height:200vh;
+}
+.weather-icon{
+    text-align:center;
+    background-color:rgb(122, 149, 158);
+    border-radius: 10px;
+}
+.table-container{
+    
+    background-color:rgb(122, 149, 158);
+    border-radius: 10px;
+}
+.cloudy-icon{
+    font-size:100px;
+    text-align:center;
+    animation: cloudy-icon 2s infinite alternate;
+}
+@keyframes cloudy-icon{
+    from{
+        transform: translatey(10px);
+    }
+    to{
+        transform: translatey(20px);
+    }
+}
