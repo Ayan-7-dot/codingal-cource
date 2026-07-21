@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Module 2 - Lesson 3 Activity 1 - My Superhero Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Blaka+Hollow&display=swap" rel="stylesheet">
+    <style>
+        /* Typography — font, size, weight, colour for the whole page */
+        body {
+            background-color: lightblue;
+            color:darkblue;
+           font-family: 'Bevan', cursive;
+        }
+
+
+        /* Typography + Text Shadow — big bold title with an orange shadow */
+        .hero-name {
+            
+            font-size:4rem;
+            text-align:center;
+            text-shadow: 2px 4px 4px rgba(0, 77, 160, 1);
+        }
+
+
+        /* Typography + Text Transform — tagline becomes Title Case */
+        .tagline {
+            font-style:italic;
+            text-transform:capitalize;
+            letter-spacing:5px;
+        }
+
+
+        /* Text Transform + Text Decoration — section headings in CAPS with underline */
+        .label {
+            text-transform:uppercase;
+            letter-spacing:2px;
+            text-decoration:underline grey;
+            color:rgb(181, 181, 9);
+        }
+
+
+        /* Typography — powers stand out in bold green */
+        .power {}
+
+
+        /* Text Decoration — weaknesses are crossed out */
+        .weakness {}
+
+
+        /* Transform — the badge is tilted to the side */
+        .badge {
+            font-size:50px;
+            font-weight:bold;
+            background-color:grey;
+            border-radius: 10px;
+            color:white;
+            display:inline-block;
+            transform:rotate(-10deg);
+           
+        }
+        .badge:hover{
+            transform:rotate(0deg);
+        }
+
+
+        /* Typography — footer text */
+        .made-by {
+            color:whitesmoke;
+            font-size:10px;
+            font-style:italic;
+            background-color:darkblue;
+            display:inline-block;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="hero-name">Thunder Kid</h1>
+    <p class="tagline">the most powerful hero in the school</p>
+
+    <h2 class="label">super powers</h2>
+    <p class="power">Can run faster than a cheetah</p>
+    <p class="power">Can lift a school bus</p>
+
+    <h2 class="label">weaknesses</h2>
+    <p class="weakness">Maths homework</p>
+    <p class="weakness">Broccoli</p>
+
+    <div class="badge">Best Superhero</div><br><br>
+
+    <p class="made-by">- Created by Ayan.</p>
+</body>
+
+</html>
