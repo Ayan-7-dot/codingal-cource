@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Module 2 CSS - Lesson 5 Box Model - My Animal Fact File</title>
+    <style>
+        /* Page background — sets the colour and font for the whole page */
+        body {
+            background-color: lightgreen;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Box Model — width sets the content area
+       padding pushes the text away from the edges
+       border draws a visible frame around the fact file
+       margin pushes the fact file away from the screen edge */
+        .fact-file {
+            background-color: lightyellow;
+            color: darkgreen;
+            width: 450px;
+            border: 2px solid seagreen;
+            padding: 20px 100px;
+            margin: 30px ;
+            transition: all 1s ease-in-out;
+        }
+
+
+        /* Animal name — forestgreen so it stands out */
+
+        /* Detail rows — dark text on the light background */
+        .detail {
+            color: blue;
+        }
+        .fact-file:hover{
+            border: 5px solid darkgreen;
+            transform:translatey(-10px);
+           box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17)
+            0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        
+        }
+
+        /* Cool fact — orange and italic to make it feel special */
+    </style>
+</head>
+
+<body>
+    <div class="fact-file">
+        <h2 class="animal-name">Snow Leopard</h2>
+        <p class="detail">Type: Big Cat</p>
+        <p class="detail">Lives in: Mountain ranges of Centra Alsia</p>
+        <p class="detail">Diet: Deer, goats, and wild sheep</p>
+        <p class="cool-fact">Cool Fact: Can leap up to 15 metres in one jump!</p>
+    </div>
+</body>
+
+</html>
