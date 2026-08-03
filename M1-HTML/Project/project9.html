@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Spice Route — Classic Menu</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Palatino Linotype', 'Book Antiqua', Georgia, 'Times New Roman', serif;
+            background: #ece4d3;
+            color: #3a2c1f;
+            padding: 50px 20px;
+        }
+
+        .menu {
+            max-width: 700px;
+            margin: 0 auto;
+            background: #fdfaf3;
+            border: 2px solid #9c7a3c;
+            outline: 1px solid #9c7a3c;
+            outline-offset: 6px;
+            padding: 55px 45px;
+            box-shadow: 0 8px 30px rgba(60, 40, 15, 0.2);
+        }
+
+        .menu-header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 22px;
+            border-bottom: 1px solid #9c7a3c;
+        }
+
+        .menu-header h1 {
+            font-size: 2.6rem;
+            letter-spacing: 4px;
+            color: #6b3f1d;
+            text-transform: uppercase;
+            font-weight: normal;
+        }
+
+        .menu-header p {
+            margin-top: 10px;
+            font-style: italic;
+            color: #7a6a52;
+            letter-spacing: 2px;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+        }
+
+        .section {
+            margin-bottom: 38px;
+        }
+
+        .section h2 {
+            font-size: 1.15rem;
+            color: #6b3f1d;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: normal;
+            font-style: italic;
+        }
+
+        .item {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline;
+            margin-bottom: 16px;
+        }
+
+        .item-name {
+            font-size: 1.02rem;
+            font-weight: bold;
+            color: #3a2c1f;
+        }
+
+        .tag {
+            font-size: 0.62rem;
+            border: 1px solid #6f8f5c;
+            color: #4d6b3d;
+            padding: 1px 6px;
+            border-radius: 2px;
+            margin-left: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-weight: normal;
+        }
+
+        .tag.spicy {
+            border-color: #a3402a;
+            color: #a3402a;
+        }
+
+        .dots {
+            flex: 1px;
+            border-bottom: 1px dotted #b8a578;
+            margin: 0 8px;
+        }
+
+        .item-price {
+            font-size: 1.02rem;
+            color: #6b3f1d;
+            font-weight: bold;
+        }
+
+        .item-desc {
+            width: 100%;
+            font-size: 0.85rem;
+            color: #7a6a52;
+            margin-top: 4px;
+            font-style: italic;
+        }
+
+        .menu-footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 22px;
+            border-top: 1px solid #9c7a3c;
+            font-size: 0.8rem;
+            color: #7a6a52;
+            letter-spacing: 1px;
+            font-style: italic;
+        }
+        .ml {
+            font-size: 10px;
+            color: #7a6a52;
+            margin-left: 4px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="menu">
+
+        <div class="menu-header">
+            <h1>Spice Route</h1>
+            <p>Authentic Indian Cuisine</p>
+        </div>
+
+        <div class="section">
+            <h2>Starters</h2>
+
+            <div class="item">
+                <div class="item-name">Samosa Chaat</div>
+                <div class="tag">Veg</div>
+                <div class="dots"></div>
+                <div class="item-price">₹249</div>
+                <div class="item-desc">Crushed samosas, chickpeas, yogurt, tamarind &amp; mint chutney</div>
+            </div>
+
+            <div class="item">
+                <div class="item-name">Chicken 65</div>
+                <div class="tag spicy">Spicy</div>
+                <div class="dots"></div>
+                <div class="item-price">₹329</div>
+                <div class="item-desc">Deep-fried spiced chicken bites, curry leaf, chili</div>
+            </div>
+
+            <div class="item">
+                <div class="item-name">Paneer Tikka</div>
+                <div class="tag">Veg</div>
+                <div class="dots"></div>
+                <div class="item-price">₹349</div>
+                <div class="item-desc">Tandoor-grilled cottage cheese, bell peppers, onions</div>
+            </div>
+
+            <div class="item">
+                <div class="item-name">Seekh Kebab</div>
+                <div class="dots"></div>
+                <div class="item-price">₹379</div>
+                <div class="item-desc">Minced lamb skewers, ginger, garam masala, mint chutney</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Main Course</h2>
+
+            <div class="item">
+                <div class="item-name">Butter Chicken</div>
+                <div class="dots"></div>
+                <div class="item-price">₹449</div>
+                <div class="item-desc">Tandoori chicken simmered in creamy tomato gravy</div>
+            </div>
+
+            <div class="item">
+                <div class="item-name">Lamb Rogan Josh</div>
+                <div class="tag spicy">Spicy</div>
+                <div class="dots"></div>
+                <div class="item-price">₹549</div>
+                <div class="item-desc">Slow-braised lamb, Kashmiri chilies, aromatic spices</div>
+            </div>
+
+            <div class="item">
+                <div class="item-name">Palak Paneer</div>
+                <div class="tag">Veg</div>
+                <div class="dots"></div>
+                <div class="item-price">₹379</div>
+                <div class="item-desc">Cottage cheese cubes in a creamy spinach gravy</div>
+            </div>
+
+            <div class="item">
+                <div class="item-name">Chana Masala</div>
+                <div class="tag">Veg</div>
+                <div class="dots"></div>
+                <div class="item-price">₹329</div>
+                <div class="item-desc">Chickpeas simmered in a tangy onion-tomato masala</div>
+            </div>
+
+            <div class="item">
+                <div class="item-name">Goan Fish Curry</div>
+                <div class="tag spicy">Spicy</div>
+                <div class="dots"></div>
+                <div class="item-price">₹529</div>
+                <div class="item-desc">Coastal-style fish in coconut curry, curry leaves, tamarind</div>
+            </div>
+
+            <div class="item">
+                <div class="item-name">Dal Makhani</div>
+                <div class="tag">Veg</div>
+                <div class="dots"></div>
+                <div class="item-price">₹359</div>
+                <div class="item-desc">Black lentils, kidney beans, slow-cooked with butter &amp; cream</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Breads &amp; Rice</h2>
+
+            <div class="item">
+                <div class="item-name">Garlic Naan</div>
+                <div class="dots"></div>
+                <div class="item-price">₹90</div>
+            </div>
+
+            <div class="item">
+                <div class="item-name">Tandoori Roti</div>
+                <div class="dots"></div>
+                <div class="item-price">₹60</div>
+            </div>
+
+            <div class="item">
+                <div class="item-name">Chicken Biryani</div>
+                <div class="dots"></div>
+                <div class="item-price">₹429</div>
+                <div class="item-desc">Fragrant basmati rice, spiced chicken, saffron, fried onions</div>
+            </div>
+
+            <div class="item">
+                <div class="item-name">Jeera Rice</div>
+                <div class="tag">Veg</div>
+                <div class="dots"></div>
+                <div class="item-price">₹150</div>
+                <div class="item-desc">Basmati rice tempered with cumin</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Desserts</h2>
+
+            <div class="item">
+                <div class="item-name">Gulab Jamun</div>
+                <div class="dots"></div>
+                <div class="item-price">₹180</div>
+                <div class="item-desc">Fried milk dumplings soaked in rose-cardamom syrup</div>
+            </div>
+
+            <div class="item">
+                <div class="item-name">Kheer</div>
+                <div class="dots"></div>
+                <div class="item-price">₹150</div>
+                <div class="item-desc">Rice pudding, cardamom, saffron, toasted almonds</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Beverages</h2>
+
+            <div class="item">
+                <div class="item-name">Mango Lassi</div><div class="ml">(250 ml)</div>
+                <div class="dots"></div>
+                <div class="item-price">₹120</div>
+            </div>
+
+            <div class="item">
+                <div class="item-name">Masala Chai</div>
+                <div class="dots"></div>
+                <div class="item-price">₹90</div>
+            </div>
+
+            <div class="item">
+                <div class="item-name">Sparkling Water </div><div class="ml">(250 ml)</div>
+                <div class="dots"></div>
+                <div class="item-price">₹90</div>
+            </div>
+            <div class="item">
+                <div class="item-name">Fresh Lime Soda</div><div class="ml">(500 ml)</div>
+                <div class="dots"></div>
+                <div class="item-price">₹100</div>
+            </div>
+            <div class="item">
+                <div class="item-name">Coconut Water</div><div class="ml">(500 ml)</div>
+                <div class="dots"></div>
+                <div class="item-price">₹100</div>
+            </div>
+        </div>
+
+        <div class="menu-footer">
+            Please inform your server of any allergies &middot; Spice levels adjustable on request
+        </div>
+        
+
+    </div>
+
+</body>
+
+</html>
