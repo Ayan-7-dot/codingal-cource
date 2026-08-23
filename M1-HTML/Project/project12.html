@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Zoo Rescue Tracker</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f1fff0;
+      padding: 25px;
+      padding-top: 70px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2d6a4f;
+    }
+
+    h2 {
+      color: #2d6a4f;
+    }
+
+    .alert {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: #2d6a4f;
+      color: white;
+      padding: 14px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .animal {
+      background: #d8f3dc;
+      border: 2px solid #2d6a4f;
+      padding: 12px;
+      margin: 8px 0;
+      width: 220px;
+      border-radius: 6px;
+    }
+
+    .moved {
+      position: relative;
+      left: 35px;
+      background: #95d5b2;
+    }
+
+    .card {
+      position: relative;
+      background: white;
+      border: 2px solid #52b788;
+      padding: 25px;
+      width: 230px;
+      text-align: center;
+      border-radius: 10px;
+    }
+
+    .tag {
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      background: #f77f00;
+      color: white;
+      padding: 6px 10px;
+      border-radius: 20px;
+      font-size: 12px;
+    }
+
+    .zone {
+      position: sticky;
+      top: 50px;
+      background: #2d6a4f;
+      color: white;
+      padding: 10px;
+      margin-top: 25px;
+      font-weight: bold;
+    }
+
+    .case {
+      background: white;
+      border: 2px solid #52b788;
+      padding: 10px;
+      margin: 8px 0;
+      width: 230px;
+      border-radius: 8px;
+    }
+
+    code {
+      background: #d8f3dc;
+      padding: 2px 5px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="alert">🚨 Zoo Rescue Alert - Team Active</div>
+
+  <h1>🦁 Zoo Rescue Tracker 🐼</h1>
+
+  <p style="text-align:center;">
+    Tracking animals that need rescue and care.
+  </p>
+
+  <h2>Animals in the Zoo</h2>
+
+  <div class="animal">🦁 Lion - Resting Zone</div>
+  <div class="animal">🐘 Elephant - Water Zone</div>
+  <div class="animal">🐧 Penguin - Ice Zone</div>
+
+  <h2>Animals Being Rescued</h2>
+
+  <div class="animal">🦒 Giraffe - Checkup Pending</div>
+  <div class="animal moved">🐨 Koala - Rescued</div>
+  <div class="animal">🦓 Zebra - Safe</div>
+
+  <h2>Rescue Information</h2>
+
+  <div class="card">
+    🐼 Panda<br><br>
+    Medical Check Complete
+    <div class="tag">SAFE</div>
+  </div>
+
+  
+
+  <h2>Rescue Zone</h2>
+
+  <div class="zone">📍 Rescue Zone </div>
+
+  <div class="case">🐯 Tiger - Observation</div>
+  <div class="case">🦌 Deer - Released</div>
+  <div class="case">🦉 Owl - Night Care</div>
+  <div class="case">🐢 Turtle - Treatment</div>
+  <div class="case">🐒 Monkey - Healthy</div>
+
+  
+
+</body>
+</html>
