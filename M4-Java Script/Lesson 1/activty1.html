@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="my-heading"></h1>
+    <p id="my-paragraph"></p>
+    <script>
+        //First time using JavaScript 
+        document.getElementById("my-heading").innerHTML = "Hello, World!";
+        document.getElementById("my-paragraph").innerHTML = "First time using JavaScript to change the content of HTML elements.";
+        console.log("Ayan");
+        let x = 1;
+        console.log(x);
+        let Ayan = 4;
+        document.getElementById("my-heading").innerHTML = Ayan+x;
+        let name = "abcd";
+        console.log(typeof(name));
+        document.getElementById("my-paragraph").innerHTML = x % Ayan;
+        // percentage shows the remainder of a division operation. For example, 10 % 3 would be 1, because 3 goes into 10 three times with a remainder of 1.
+        let y = 3;
+        document.getElementById("my-paragraph").innerHTML = "the sum of " + x + " and " + y + " is " + (x + y);
+        document.getElementById("my-paragraph").innerHTML = `The sum of ${x} and ${y} is ${x + y}`;
+    </script>
+</body>
+</html>
