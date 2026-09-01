@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="list"></p>
+    <script>
+      let sentence = "The Quick Fox Jumped Over The Lazzy Dog";
+      document.write("<br>");
+      document.write(sentence.toUpperCase());
+      document.write(sentence.toLowerCase());
+      document.write("<br>");
+      document.write(sentence.startsWith("t"));
+      document.write("<br>");
+      document.write(sentence.includes("Fox"));
+      document.write("<br><br><h>");
+      let products = [
+        "IPhone 17 Pro ",
+        "Samsung s 25 ultra",
+        "Mac Book Air",
+        "Mac Book Pro",
+      ];
+      document.write("How big are my products array " + products.length);
+      document.write("<br>");
+      for (let i = 0; i < products.length; i = i + 1) {
+        document.write(products[i]);
+        document.write("<br>");
+      }
+      let day = new Date().getDay();
+      console.log(day);
+      switch (day) {
+        case 0:
+          console.log("Sunday");
+          break;
+        case 1:
+          console.log("Monday");
+          break;
+        case 2:
+          console.log("Tuesday");
+          break;
+        case 3:
+          console.log("Wednesday");
+          break;
+        case 4:
+          console.log("Thursday");
+          break;
+        case 5:
+          console.log("Friday");
+          break;
+        case 6:
+          console.log("Suturday");
+          break;
+      }
+      console.log(new Date().getFullYear());
+    </script>
+  </body>
+</html>
